@@ -1,0 +1,454 @@
+
+========================================
+2026-03-03 20:06:49 — DEPLOY START: smarter-crm
+Previous commit: 442b14e73a1447d99bf54438b3353da09c318163
+2026-03-03 20:06:49 — Taking pre-deploy backup...
+
+========================================
+2026-03-03 20:06:57 — DEPLOY START: smarter-crm
+Previous commit: 442b14e73a1447d99bf54438b3353da09c318163
+2026-03-03 20:06:57 — Taking pre-deploy backup...
+2026-03-03 20:06:57 — Pulling main branch...
+From https://github.com/smarterrevolutionai/smarter-revolution-crm
+ * branch            main       -> FETCH_HEAD
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+From https://github.com/smarterrevolutionai/smarter-revolution-crm
+ * branch            main       -> FETCH_HEAD
+Updating dd3ab35..136613a
+Fast-forward
+ scripts/README-bounce-cleanup.md |  85 +++++++++++++++
+ scripts/bounce-cleanup.js        | 229 +++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 314 insertions(+)
+ create mode 100644 scripts/README-bounce-cleanup.md
+ create mode 100755 scripts/bounce-cleanup.js
+New commit: 136613a978c2ed28bece7d6aeb8e5ca6980f6313
+2026-03-03 20:06:57 — Installing deps...
+
+up to date, audited 498 packages in 3s
+
+99 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (1 low, 4 moderate, 3 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+2026-03-03 20:06:57 — Running Prisma migrations...
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": PostgreSQL database "crm_db", schema "public" at "localhost:5432"
+
+1 migration found in prisma/migrations
+
+
+No pending migrations to apply.
+2026-03-03 20:06:57 — Building...
+   ▲ Next.js 14.1.0
+   - Environments: .env
+
+
+> Build error occurred
+Error: EACCES: permission denied, unlink '/opt/smarter-crm/.next/server/app-paths-manifest.json'
+    at async Object.unlink (node:internal/fs/promises:1057:10)
+    at async unlinkPath (/opt/smarter-crm/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 1)
+    at async recursiveDelete (/opt/smarter-crm/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async /opt/smarter-crm/node_modules/next/dist/lib/recursive-delete.js:68:17
+    at async Promise.all (index 15)
+    at async recursiveDelete (/opt/smarter-crm/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async /opt/smarter-crm/node_modules/next/dist/build/index.js:690:17
+    at async Span.traceAsyncFn (/opt/smarter-crm/node_modules/next/dist/trace/trace.js:151:20)
+    at async build (/opt/smarter-crm/node_modules/next/dist/build/index.js:374:9) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/opt/smarter-crm/.next/server/app-paths-manifest.json'
+}
+
+========================================
+2026-03-03 20:07:13 — DEPLOY START: smarter-crm
+Previous commit: 136613a978c2ed28bece7d6aeb8e5ca6980f6313
+2026-03-03 20:07:13 — Taking pre-deploy backup...
+2026-03-03 20:07:13 — Pulling main branch...
+From https://github.com/smarterrevolutionai/smarter-revolution-crm
+ * branch            main       -> FETCH_HEAD
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/smarterrevolutionai/smarter-revolution-crm
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+New commit: 136613a978c2ed28bece7d6aeb8e5ca6980f6313
+2026-03-03 20:07:13 — Installing deps...
+
+up to date, audited 498 packages in 2s
+
+99 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (1 low, 4 moderate, 3 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+2026-03-03 20:07:13 — Running Prisma migrations...
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": PostgreSQL database "crm_db", schema "public" at "localhost:5432"
+
+1 migration found in prisma/migrations
+
+
+No pending migrations to apply.
+┌─────────────────────────────────────────────────────────┐
+│  Update available 5.22.0 -> 7.4.2                       │
+│                                                         │
+│  This is a major update - please follow the guide at    │
+│  https://pris.ly/d/major-version-upgrade                │
+│                                                         │
+│  Run the following to update                            │
+│    npm i --save-dev prisma@latest                       │
+│    npm i @prisma/client@latest                          │
+└─────────────────────────────────────────────────────────┘
+2026-03-03 20:07:13 — Building...
+   ▲ Next.js 14.1.0
+   - Environments: .env
+
+
+> Build error occurred
+Error: EACCES: permission denied, unlink '/opt/smarter-crm/.next/server/app-paths-manifest.json'
+    at async Object.unlink (node:internal/fs/promises:1057:10)
+    at async unlinkPath (/opt/smarter-crm/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 1)
+    at async recursiveDelete (/opt/smarter-crm/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async /opt/smarter-crm/node_modules/next/dist/lib/recursive-delete.js:68:17
+    at async Promise.all (index 1)
+    at async recursiveDelete (/opt/smarter-crm/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async /opt/smarter-crm/node_modules/next/dist/build/index.js:690:17
+    at async Span.traceAsyncFn (/opt/smarter-crm/node_modules/next/dist/trace/trace.js:151:20)
+    at async build (/opt/smarter-crm/node_modules/next/dist/build/index.js:374:9) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/opt/smarter-crm/.next/server/app-paths-manifest.json'
+}
+
+========================================
+2026-03-03 20:07:23 — DEPLOY START: smarter-crm
+Previous commit: 136613a978c2ed28bece7d6aeb8e5ca6980f6313
+2026-03-03 20:07:23 — Taking pre-deploy backup...
+2026-03-03 20:07:23 — Pulling main branch...
+From https://github.com/smarterrevolutionai/smarter-revolution-crm
+ * branch            main       -> FETCH_HEAD
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/smarterrevolutionai/smarter-revolution-crm
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+New commit: 136613a978c2ed28bece7d6aeb8e5ca6980f6313
+2026-03-03 20:07:23 — Installing deps...
+
+up to date, audited 498 packages in 2s
+
+99 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (1 low, 4 moderate, 3 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+2026-03-03 20:07:23 — Running Prisma migrations...
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": PostgreSQL database "crm_db", schema "public" at "localhost:5432"
+
+1 migration found in prisma/migrations
+
+
+No pending migrations to apply.
+2026-03-03 20:07:23 — Building...
+   ▲ Next.js 14.1.0
+   - Environments: .env
+
+
+> Build error occurred
+Error: EACCES: permission denied, unlink '/opt/smarter-crm/.next/standalone/.env'
+    at async Object.unlink (node:internal/fs/promises:1057:10)
+    at async unlinkPath (/opt/smarter-crm/node_modules/next/dist/lib/recursive-delete.js:25:13)
+    at async Promise.all (index 0)
+    at async recursiveDelete (/opt/smarter-crm/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async /opt/smarter-crm/node_modules/next/dist/lib/recursive-delete.js:68:17
+    at async Promise.all (index 2)
+    at async recursiveDelete (/opt/smarter-crm/node_modules/next/dist/lib/recursive-delete.js:51:5)
+    at async /opt/smarter-crm/node_modules/next/dist/build/index.js:690:17
+    at async Span.traceAsyncFn (/opt/smarter-crm/node_modules/next/dist/trace/trace.js:151:20)
+    at async build (/opt/smarter-crm/node_modules/next/dist/build/index.js:374:9) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'unlink',
+  path: '/opt/smarter-crm/.next/standalone/.env'
+}
+
+========================================
+2026-03-03 20:07:39 — DEPLOY START: smarter-crm
+Previous commit: 136613a978c2ed28bece7d6aeb8e5ca6980f6313
+2026-03-03 20:07:39 — Taking pre-deploy backup...
+2026-03-03 20:07:39 — Pulling main branch...
+From https://github.com/smarterrevolutionai/smarter-revolution-crm
+ * branch            main       -> FETCH_HEAD
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/smarterrevolutionai/smarter-revolution-crm
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+New commit: 136613a978c2ed28bece7d6aeb8e5ca6980f6313
+2026-03-03 20:07:39 — Installing deps...
+
+up to date, audited 498 packages in 2s
+
+99 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (1 low, 4 moderate, 3 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+2026-03-03 20:07:39 — Running Prisma migrations...
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": PostgreSQL database "crm_db", schema "public" at "localhost:5432"
+
+1 migration found in prisma/migrations
+
+
+No pending migrations to apply.
+2026-03-03 20:07:39 — Building...
+   ▲ Next.js 14.1.0
+   - Environments: .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+   Generating static pages (0/77) ...
+   Generating static pages (19/77) 
+   Generating static pages (38/77) 
+   Generating static pages (57/77) 
+ ✓ Generating static pages (77/77) 
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ λ /                                    167 B          84.4 kB
+├ ○ /_not-found                          886 B          85.1 kB
+├ λ /api/activities                      0 B                0 B
+├ λ /api/activities/log                  0 B                0 B
+├ λ /api/alerts/sms                      0 B                0 B
+├ λ /api/analytics/forecast              0 B                0 B
+├ λ /api/analytics/pipeline              0 B                0 B
+├ λ /api/analytics/sequences             0 B                0 B
+├ λ /api/analytics/stale-deals           0 B                0 B
+├ λ /api/analytics/weekly-report         0 B                0 B
+├ λ /api/analytics/win-loss              0 B                0 B
+├ λ /api/auth/login                      0 B                0 B
+├ λ /api/auth/logout                     0 B                0 B
+├ λ /api/auth/me                         0 B                0 B
+├ λ /api/automation/daily-ops            0 B                0 B
+├ λ /api/automation/events               0 B                0 B
+├ λ /api/automation/health               0 B                0 B
+├ λ /api/automation/rules                0 B                0 B
+├ λ /api/automation/rules/[id]           0 B                0 B
+├ λ /api/calendar                        0 B                0 B
+├ λ /api/campaigns/stats                 0 B                0 B
+├ λ /api/companies                       0 B                0 B
+├ λ /api/companies/[id]                  0 B                0 B
+├ λ /api/companies/[id]/status           0 B                0 B
+├ λ /api/competitors/history             0 B                0 B
+├ λ /api/competitors/scan                0 B                0 B
+├ λ /api/contacts                        0 B                0 B
+├ λ /api/contacts/[id]                   0 B                0 B
+├ λ /api/contacts/[id]/deliverables      0 B                0 B
+├ λ /api/contacts/[id]/emails            0 B                0 B
+├ λ /api/contacts/[id]/meetings          0 B                0 B
+├ λ /api/contacts/[id]/timeline          0 B                0 B
+├ λ /api/contacts/bulk                   0 B                0 B
+├ λ /api/contacts/dedup                  0 B                0 B
+├ λ /api/contacts/enrich                 0 B                0 B
+├ λ /api/contacts/import                 0 B                0 B
+├ λ /api/contacts/merge                  0 B                0 B
+├ λ /api/contacts/score                  0 B                0 B
+├ λ /api/contacts/search                 0 B                0 B
+├ λ /api/custom-fields                   0 B                0 B
+├ λ /api/custom-fields/[id]              0 B                0 B
+├ λ /api/dashboard                       0 B                0 B
+├ λ /api/dashboard/stats                 0 B                0 B
+├ λ /api/deals                           0 B                0 B
+├ λ /api/deals/[id]                      0 B                0 B
+├ λ /api/deals/[id]/deliverables         0 B                0 B
+├ λ /api/deals/automate                  0 B                0 B
+├ ○ /api/debug-env                       0 B                0 B
+├ λ /api/deliverables                    0 B                0 B
+├ λ /api/email/monitor-enhanced          0 B                0 B
+├ λ /api/email/send                      0 B                0 B
+├ λ /api/gmail/draft                     0 B                0 B
+├ λ /api/gmail/draft-with-attachments    0 B                0 B
+├ λ /api/gmail/monitor                   0 B                0 B
+├ λ /api/gmail/sync                      0 B                0 B
+├ λ /api/health                          0 B                0 B
+├ λ /api/knowledge                       0 B                0 B
+├ λ /api/knowledge/[slug]                0 B                0 B
+├ λ /api/lead-pipeline                   0 B                0 B
+├ λ /api/lead-pipeline/[id]              0 B                0 B
+├ λ /api/lead-pipeline/bulk-action       0 B                0 B
+├ λ /api/lead-pipeline/export            0 B                0 B
+├ λ /api/lead-pipeline/import            0 B                0 B
+├ λ /api/lead-pipeline/personalize       0 B                0 B
+├ λ /api/leadgen                         0 B                0 B
+├ λ /api/leadgen/[id]                    0 B                0 B
+├ λ /api/leadgen/[id]/research           0 B                0 B
+├ λ /api/leadgen/[id]/sync-to-ac         0 B                0 B
+├ λ /api/linkedin/calendar               0 B                0 B
+├ λ /api/linkedin/generate               0 B                0 B
+├ λ /api/linkedin/posts                  0 B                0 B
+├ λ /api/materials                       0 B                0 B
+├ λ /api/meeting-prep                    0 B                0 B
+├ λ /api/meeting-prep/[id]               0 B                0 B
+├ λ /api/meeting-prep/auto               0 B                0 B
+├ λ /api/meeting-prep/list               0 B                0 B
+├ λ /api/notes                           0 B                0 B
+├ λ /api/notes/[id]                      0 B                0 B
+├ λ /api/notifications                   0 B                0 B
+├ λ /api/notifications/unread            0 B                0 B
+├ λ /api/outbound/advance                0 B                0 B
+├ λ /api/outbound/enroll                 0 B                0 B
+├ λ /api/outbound/generate               0 B                0 B
+├ λ /api/outbound/research               0 B                0 B
+├ λ /api/outbound/status                 0 B                0 B
+├ λ /api/pipeline/stages                 0 B                0 B
+├ λ /api/pipeline/stages/[id]            0 B                0 B
+├ λ /api/pipelines                       0 B                0 B
+├ λ /api/proposals                       0 B                0 B
+├ λ /api/proposals/[id]                  0 B                0 B
+├ λ /api/proposals/[id]/pdf              0 B                0 B
+├ λ /api/prospects                       0 B                0 B
+├ λ /api/prospects/status                0 B                0 B
+├ λ /api/reports                         0 B                0 B
+├ λ /api/research                        0 B                0 B
+├ λ /api/research/auto                   0 B                0 B
+├ λ /api/research/deep                   0 B                0 B
+├ ○ /api/research/meetings               0 B                0 B
+├ λ /api/revenue/dashboard               0 B                0 B
+├ λ /api/revenue/forecast                0 B                0 B
+├ λ /api/search                          0 B                0 B
+├ λ /api/sequences                       0 B                0 B
+├ λ /api/sequences/[id]                  0 B                0 B
+├ λ /api/sequences/[id]/steps            0 B                0 B
+├ λ /api/sequences/analytics             0 B                0 B
+├ λ /api/sequences/check-replies         0 B                0 B
+├ λ /api/sequences/enroll                0 B                0 B
+├ λ /api/sequences/process               0 B                0 B
+├ λ /api/sequences/send                  0 B                0 B
+├ λ /api/sms                             0 B                0 B
+├ λ /api/sms/templates                   0 B                0 B
+├ λ /api/sms/webhook                     0 B                0 B
+├ λ /api/tags                            0 B                0 B
+├ λ /api/tags/[id]                       0 B                0 B
+├ λ /api/tasks                           0 B                0 B
+├ λ /api/tasks/[id]                      0 B                0 B
+├ λ /api/templates                       0 B                0 B
+├ λ /api/templates/[id]                  0 B                0 B
+├ λ /api/transcript-pipeline             0 B                0 B
+├ λ /api/transcript-pipeline/analyze     0 B                0 B
+├ λ /api/users                           0 B                0 B
+├ λ /api/users/me                        0 B                0 B
+├ λ /api/webhooks/booking                0 B                0 B
+├ λ /api/webhooks/plusvibe               0 B                0 B
+├ λ /api/webhooks/submissions            0 B                0 B
+├ λ /automations                         8.55 kB         135 kB
+├ λ /calendar                            6.68 kB         119 kB
+├ λ /campaigns                           2.88 kB        87.1 kB
+├ λ /companies                           5.18 kB        89.4 kB
+├ λ /companies/[id]                      9.56 kB         123 kB
+├ ○ /competitors                         3.87 kB         100 kB
+├ λ /contacts                            8.26 kB         135 kB
+├ λ /contacts/[id]                       17.2 kB         149 kB
+├ λ /contacts/dedup                      4.9 kB          112 kB
+├ λ /contacts/mobile                     3.73 kB        87.9 kB
+├ λ /dashboard                           3.53 kB        87.7 kB
+├ λ /deals                               5.34 kB        89.5 kB
+├ λ /deals/[id]                          7.82 kB         143 kB
+├ λ /import                              2.93 kB        87.1 kB
+├ λ /knowledge                           3.86 kB          88 kB
+├ λ /lead-pipeline                       5.03 kB        89.2 kB
+├ ○ /linkedin                            3.64 kB        87.8 kB
+├ ○ /login                               3.33 kB        94.8 kB
+├ ○ /meeting-prep                        3.23 kB        94.4 kB
+├ ○ /outbound                            5.97 kB         131 kB
+├ λ /pipeline                            22.3 kB         153 kB
+├ ○ /proposals                           1.19 kB        92.2 kB
+├ λ /proposals/[id]                      2.26 kB        86.5 kB
+├ ○ /proposals/new                       2.03 kB        86.2 kB
+├ λ /prospects                           6.56 kB        90.8 kB
+├ λ /reports                             3.13 kB        87.3 kB
+├ λ /research                            6.47 kB        90.7 kB
+├ ○ /revenue                             4 kB           88.2 kB
+├ λ /sequences                           5.92 kB         113 kB
+├ λ /sequences/[id]                      4.85 kB        98.7 kB
+├ λ /sequences/analytics                 1.49 kB        85.7 kB
+├ λ /settings                            2.93 kB         104 kB
+├ λ /settings/api-keys                   5.07 kB         112 kB
+├ λ /settings/fields                     8.95 kB         140 kB
+├ λ /settings/pipeline                   4.54 kB         112 kB
+├ λ /settings/profile                    3.57 kB        97.4 kB
+├ λ /settings/tags                       4.29 kB         112 kB
+├ λ /settings/users                      5.24 kB         132 kB
+├ λ /sms                                 4.04 kB        88.2 kB
+├ λ /sms/templates                       3.55 kB        94.6 kB
+├ λ /tasks                               6.96 kB         114 kB
+└ λ /templates                           2.83 kB          87 kB
++ First Load JS shared by all            84.2 kB
+  ├ chunks/8069-72a4d05510922913.js      28.9 kB
+  ├ chunks/fd9d1056-4546f991f62f2afb.js  53.4 kB
+  └ other shared chunks (total)          1.91 kB
+
+
+ƒ Middleware                             41 kB
+
+○  (Static)   prerendered as static content
+λ  (Dynamic)  server-rendered on demand using Node.js
+
+2026-03-03 20:07:39 — Restarting PM2...
+Use --update-env to update environment variables
+[PM2][ERROR] Process or Namespace smarter-crm not found
+[PM2][WARN] Applications smarter-crm not running, starting...
+[PM2] App [smarter-crm] launched (1 instances)
+┌────┬────────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                       │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ openclaw-exec-dashboard    │ default     │ N/A     │ cluster │ 3857199  │ 30h    │ 3    │ online    │ 0%       │ 73.3mb   │ smarty   │ disabled │
+│ 1  │ smarter-crm                │ default     │ 1.0.0   │ cluster │ 607416   │ 0s     │ 0    │ online    │ 0%       │ 45.5mb   │ smarty   │ disabled │
+└────┴────────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+2026-03-03 20:07:39 — Running health check...
+2026-03-03 20:07:39 — ✅ Health check passed (HTTP 307)
+2026-03-03 20:07:39 — DEPLOY COMPLETE: smarter-crm (136613a978c2ed28bece7d6aeb8e5ca6980f6313 → 136613a978c2ed28bece7d6aeb8e5ca6980f6313) HTTP 307
