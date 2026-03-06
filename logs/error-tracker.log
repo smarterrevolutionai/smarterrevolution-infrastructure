@@ -8,3 +8,223 @@
 2026-03-03 19:10:01 — 9 new errors detected
 2026-03-03 19:30:01 [CRM-POSTGRES] 1 errors: 2026-03-03 19:27:32.458 UTC [23548] ERROR:  syntax error at or near "$1" at character 76
 2026-03-03 19:30:01 — 1 new errors detected
+2026-03-03 21:30:01 [CRM-POSTGRES] 4 errors: 2026-03-03 21:28:59.441 UTC [300] ERROR:  syntax error at or near "1" at character 1
+2026-03-03 21:28:59.442 UTC [299] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-03 21:28:59.444 UTC [301] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-03 21:30:01 — 4 new errors detected
+2026-03-03 21:55:01 [CRM-POSTGRES] 4 errors: 2026-03-03 21:53:41.015 UTC [1397] ERROR:  syntax error at or near "1" at character 1
+2026-03-03 21:53:41.015 UTC [1396] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-03 21:53:41.019 UTC [1398] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-03 21:55:01 — 4 new errors detected
+2026-03-03 22:25:01 [CRM-POSTGRES] 4 errors: 2026-03-03 22:21:10.025 UTC [2636] ERROR:  syntax error at or near "1" at character 1
+2026-03-03 22:21:10.025 UTC [2635] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-03 22:21:10.026 UTC [2637] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-03 22:25:01 — 4 new errors detected
+2026-03-03 22:40:01 [CRM-POSTGRES] 4 errors: 2026-03-03 22:36:31.583 UTC [3316] ERROR:  syntax error at or near "1" at character 1
+2026-03-03 22:36:31.584 UTC [3317] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-03 22:36:31.585 UTC [3315] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-03 22:40:01 — 4 new errors detected
+2026-03-04 00:15:01 [CRM-POSTGRES] 4 errors: 	      error_signature TEXT,
+2026-03-04 00:14:35.373 UTC [7629] ERROR:  duplicate key value violates unique constraint "pg_class_relname_nsp_index"
+2026-03-04 00:14:35.373 UTC [7630] ERROR:  duplicate key value violates unique constraint "pg_class_relname_nsp_index"
+2026-03-04 00:15:01 — 4 new errors detected
+2026-03-04 00:30:01 [CRM-POSTGRES] 8 errors: 2026-03-04 00:28:05.115 UTC [8229] STATEMENT:  INSERT INTO ops_incidents (title,severity,status,source,service,error_signature,evidence,metadata_json)
+2026-03-04 00:28:12.746 UTC [8237] ERROR:  syntax error at or near "test" at character 124
+2026-03-04 00:28:12.746 UTC [8237] STATEMENT:  INSERT INTO ops_incidents (title,severity,status,source,service,error_signature,evidence,metadata_json)
+2026-03-04 00:30:01 — 8 new errors detected
+2026-03-04 00:45:01 [CRM-POSTGRES] 6 errors: 2026-03-04 00:44:14.764 UTC [8959] ERROR:  duplicate key value violates unique constraint "pg_type_typname_nsp_index"
+2026-03-04 00:44:14.765 UTC [8958] ERROR:  relation "ops_live_link_tests" already exists
+2026-03-04 00:44:14.766 UTC [8956] ERROR:  relation "ops_live_link_tests" already exists
+2026-03-04 00:45:01 — 6 new errors detected
+2026-03-04 02:05:01 [CRM-POSTGRES] 1 errors: 2026-03-04 02:00:01.755 UTC [12293] ERROR:  could not access file "$libdir/vector": No such file or directory
+2026-03-04 02:05:01 — 1 new errors detected
+2026-03-04 02:50:01 [CRM-POSTGRES] 4 errors: 2026-03-04 02:49:03.615 UTC [14451] ERROR:  syntax error at or near "1" at character 1
+2026-03-04 02:49:03.617 UTC [14450] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-04 02:49:03.617 UTC [14452] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-04 02:50:01 — 4 new errors detected
+2026-03-04 02:55:01 [CRM-POSTGRES] 4 errors: 2026-03-04 02:52:29.144 UTC [14606] ERROR:  syntax error at or near "1" at character 1
+2026-03-04 02:52:29.145 UTC [14605] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-04 02:52:29.146 UTC [14607] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-04 02:55:01 — 4 new errors detected
+2026-03-04 03:05:01 [CRM-POSTGRES] 1 errors: 2026-03-04 03:00:02.826 UTC [14942] ERROR:  could not access file "$libdir/vector": No such file or directory
+2026-03-04 03:05:01 — 1 new errors detected
+2026-03-04 03:30:01 [CRM-POSTGRES] 33 errors: 2026-03-04 03:25:56.692 UTC [16122] ERROR:  syntax error at or near "1" at character 1
+2026-03-04 03:25:56.694 UTC [16123] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-04 03:25:56.694 UTC [16121] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-04 03:30:01 — 33 new errors detected
+2026-03-04 10:05:01 [CRM-POSTGRES] 1 errors: 2026-03-04 10:00:01.962 UTC [33431] ERROR:  could not access file "$libdir/vector": No such file or directory
+2026-03-04 10:05:01 — 1 new errors detected
+2026-03-04 14:30:01 [CRM-POSTGRES] 1 errors: 2026-03-04 14:28:21.469 UTC [45344] ERROR:  could not access file "$libdir/vector": No such file or directory
+2026-03-04 14:30:01 — 1 new errors detected
+2026-03-04 14:45:01 [CRM-POSTGRES] 6 errors: 2026-03-04 14:41:06.035 UTC [45903] ERROR:  syntax error at or near "1" at character 1
+2026-03-04 14:41:06.060 UTC [45914] ERROR:  invalid input syntax for type boolean: "{}"
+2026-03-04 14:44:29.088 UTC [46074] ERROR:  syntax error at or near "$1" at character 76
+2026-03-04 14:45:01 — 6 new errors detected
+2026-03-04 15:15:01 [CRM-POSTGRES] 2 errors: 2026-03-04 15:13:36.952 UTC [47367] ERROR:  syntax error at or near "$1" at character 76
+2026-03-04 15:14:33.258 UTC [47426] ERROR:  insert or update on table "Deal" violates foreign key constraint "Deal_stageId_fkey"
+2026-03-04 15:15:01 — 2 new errors detected
+2026-03-04 18:05:01 [CRM-POSTGRES] 1 errors: 2026-03-04 18:00:02.134 UTC [54734] ERROR:  could not access file "$libdir/vector": No such file or directory
+2026-03-04 18:05:01 — 1 new errors detected
+2026-03-04 18:20:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 18:20:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 18:20:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 18:20:01 — 3 new errors detected
+2026-03-04 18:35:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 18:35:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 18:35:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 18:35:01 — 3 new errors detected
+2026-03-04 19:55:01 [CRM-POSTGRES] 1 errors: 2026-03-04 19:51:49.098 UTC [59666] ERROR:  cannot update view "pg_stat_statements"
+2026-03-04 19:55:01 — 1 new errors detected
+2026-03-04 20:40:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 20:40:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 20:40:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 20:40:01 — 3 new errors detected
+2026-03-04 20:45:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 20:45:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 20:45:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 20:45:01 — 3 new errors detected
+2026-03-04 20:50:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 20:50:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 20:50:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 20:50:01 — 3 new errors detected
+2026-03-04 20:55:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 20:55:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 20:55:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 20:55:01 — 3 new errors detected
+2026-03-04 21:00:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 21:00:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 21:00:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 21:00:01 — 3 new errors detected
+2026-03-04 21:05:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 21:05:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 21:05:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 21:05:01 — 3 new errors detected
+2026-03-04 21:10:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 21:10:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 21:10:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 21:10:01 — 3 new errors detected
+2026-03-04 21:15:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 21:15:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 21:15:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 21:15:01 — 3 new errors detected
+2026-03-04 21:20:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 21:20:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 21:20:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 21:20:01 — 3 new errors detected
+2026-03-04 21:25:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 21:25:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 21:25:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 21:25:01 — 3 new errors detected
+2026-03-04 21:30:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 21:30:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 21:30:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 21:30:01 — 3 new errors detected
+2026-03-04 21:35:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 21:35:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 21:35:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 21:35:01 — 3 new errors detected
+2026-03-04 21:40:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 21:40:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 21:40:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 21:40:01 — 3 new errors detected
+2026-03-04 21:45:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 21:45:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 21:45:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 21:45:01 — 3 new errors detected
+2026-03-04 21:50:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 21:50:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 21:50:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 21:50:01 — 3 new errors detected
+2026-03-04 21:55:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 21:55:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 21:55:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 21:55:01 — 3 new errors detected
+2026-03-04 22:00:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 22:00:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 22:00:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 22:00:01 — 3 new errors detected
+2026-03-04 22:05:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 22:05:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 22:05:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 22:05:01 — 3 new errors detected
+2026-03-04 22:10:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 22:10:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 22:10:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 22:10:01 — 3 new errors detected
+2026-03-04 22:15:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 22:15:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 22:15:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 22:15:01 — 3 new errors detected
+2026-03-04 22:20:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 22:20:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 22:20:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 22:20:01 — 3 new errors detected
+2026-03-04 22:25:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-04 22:25:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-04 22:25:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-04 22:25:01 — 3 new errors detected
+2026-03-05 02:05:01 [CRM-POSTGRES] 1 errors: 2026-03-05 02:00:01.828 UTC [75840] ERROR:  could not access file "$libdir/vector": No such file or directory
+2026-03-05 02:05:01 — 1 new errors detected
+2026-03-05 03:05:01 [CRM-POSTGRES] 1 errors: 2026-03-05 03:00:03.184 UTC [78490] ERROR:  could not access file "$libdir/vector": No such file or directory
+2026-03-05 03:05:01 — 1 new errors detected
+2026-03-05 04:35:01 [CRM-POSTGRES] 1 errors: 2026-03-05 04:33:25.031 UTC [82586] ERROR:  syntax error at or near "$1" at character 76
+2026-03-05 04:35:01 — 1 new errors detected
+2026-03-05 05:45:01 [CRM-POSTGRES] 1 errors: 2026-03-05 05:41:32.555 UTC [85578] ERROR:  syntax error at or near "$1" at character 76
+2026-03-05 05:45:01 — 1 new errors detected
+2026-03-05 08:20:01 [CRM-POSTGRES] 2 errors: 2026-03-05 08:18:47.830 UTC [92511] ERROR:  syntax error at end of input at character 54
+2026-03-05 08:18:50.958 UTC [92512] ERROR:  syntax error at end of input at character 54
+2026-03-05 08:20:01 — 2 new errors detected
+2026-03-05 08:45:01 [CRM-POSTGRES] 2 errors: 2026-03-05 08:45:00.636 UTC [93653] FATAL:  database "crm_db
+2026-03-05 08:45:00.672 UTC [93654] FATAL:  database "crm_db
+2026-03-05 08:45:01 — 2 new errors detected
+2026-03-05 10:05:01 [CRM-POSTGRES] 1 errors: 2026-03-05 10:00:02.181 UTC [96919] ERROR:  could not access file "$libdir/vector": No such file or directory
+2026-03-05 10:05:01 — 1 new errors detected
+2026-03-05 14:50:02 [CRM-POSTGRES] 4 errors: 2026-03-05 14:46:32.980 UTC [109325] ERROR:  column "position" does not exist at character 13
+2026-03-05 14:46:44.880 UTC [109360] ERROR:  column "no_stage" does not exist at character 25
+2026-03-05 14:46:49.182 UTC [109367] ERROR:  column "no_stage" does not exist at character 25
+2026-03-05 14:50:02 — 4 new errors detected
+2026-03-05 15:30:01 [CRM-POSTGRES] 1 errors: 2026-03-05 15:28:50.855 UTC [111257] ERROR:  trailing junk after numeric literal at or near "57755775NO_STAGE57755775" at character 26
+2026-03-05 15:30:01 — 1 new errors detected
+2026-03-05 18:05:01 [CRM-POSTGRES] 1 errors: 2026-03-05 18:00:01.548 UTC [117787] ERROR:  could not access file "$libdir/vector": No such file or directory
+2026-03-05 18:05:01 — 1 new errors detected
+2026-03-05 20:25:01 [CRM-POSTGRES] 1 errors: 2026-03-05 20:22:11.298 UTC [123924] ERROR:  syntax error at or near "$1" at character 76
+2026-03-05 20:25:01 — 1 new errors detected
+2026-03-05 22:30:01 [CRM-POSTGRES] 1 errors: 2026-03-05 22:29:27.915 UTC [129425] ERROR:  there is no unique or exclusion constraint matching the ON CONFLICT specification
+2026-03-05 22:30:01 — 1 new errors detected
+2026-03-06 02:05:01 [CRM-POSTGRES] 1 errors: 2026-03-06 02:00:01.797 UTC [138507] ERROR:  could not access file "$libdir/vector": No such file or directory
+2026-03-06 02:05:01 — 1 new errors detected
+2026-03-06 02:40:01 [CRM-POSTGRES] 2 errors: 2026-03-06 02:39:19.510 UTC [140206] ERROR:  column d.status does not exist at character 17
+2026-03-06 02:39:23.470 UTC [140227] ERROR:  column d.followup_sent does not exist at character 17
+2026-03-06 02:40:01 — 2 new errors detected
+2026-03-06 03:05:01 [CRM-POSTGRES] 1 errors: 2026-03-06 03:00:03.021 UTC [141131] ERROR:  could not access file "$libdir/vector": No such file or directory
+2026-03-06 03:05:01 — 1 new errors detected
+2026-03-06 10:01:20 [CRM-POSTGRES] 1 errors: 2026-03-06 10:00:01.426 UTC [159289] ERROR:  could not access file "$libdir/vector": No such file or directory
+2026-03-06 10:01:20 — 1 new errors detected
+2026-03-06 10:05:01 [CRM-POSTGRES] 1 errors: 2026-03-06 10:00:01.426 UTC [159289] ERROR:  could not access file "$libdir/vector": No such file or directory
+2026-03-06 10:05:01 — 1 new errors detected
+2026-03-06 11:40:01 [CRM-POSTGRES] 6 errors: 2026-03-06 11:37:27.632 UTC [163501] ERROR:  null value in column "id" of relation "linkedin_content" violates not-null constraint
+2026-03-06 11:37:27.647 UTC [163502] ERROR:  null value in column "id" of relation "linkedin_content" violates not-null constraint
+2026-03-06 11:37:27.662 UTC [163503] ERROR:  null value in column "id" of relation "linkedin_content" violates not-null constraint
+2026-03-06 11:40:01 — 6 new errors detected
+2026-03-06 13:00:01 [CRM-POSTGRES] 1 errors: 2026-03-06 12:56:23.143 UTC [166935] ERROR:  syntax error at or near "$1" at character 76
+2026-03-06 13:00:01 — 1 new errors detected
+2026-03-06 16:50:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-06 16:50:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-06 16:50:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-06 16:50:01 — 3 new errors detected
+2026-03-06 16:55:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-06 16:55:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-06 16:55:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-06 16:55:01 — 3 new errors detected
+2026-03-06 17:00:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-06 17:00:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-06 17:00:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-06 17:00:01 — 3 new errors detected
+2026-03-06 17:05:01 [CONTAINER-DOWN] dashboard-postgres is 
+2026-03-06 17:05:01 [CONTAINER-DOWN] openclaw-dashboard is 
+2026-03-06 17:05:01 [SERVICE-ERROR] CMDCTR returned HTTP 000
+2026-03-06 17:05:01 — 3 new errors detected
+2026-03-06 17:30:01 [CRM-POSTGRES] 1 errors: 2026-03-06 17:28:40.783 UTC [178728] FATAL:  password authentication failed for user "postgres"
+2026-03-06 17:30:01 — 1 new errors detected
+2026-03-06 18:05:01 [CRM-POSTGRES] 1 errors: 
+2026-03-06 18:05:01 — 1 new errors detected

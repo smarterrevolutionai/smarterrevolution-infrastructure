@@ -1,0 +1,10 @@
+repo=smarter-crm
+from=136613a978c2ed28bece7d6aeb8e5ca6980f6313
+to=ebfb63bbd9161f374183b5d6674f19c422549094
+commits=ebfb63b [SMARTY] docs(sequences): Update progress - feature complete
+60dbbf8 [SMARTY] feat(sequences): Add scheduler and UI components
+caf09b3 [SMARTY] feat(sequences): Add sequence API routes and schema enhancements
+7bc5a43 [SMARTY] docs: Add sequence builder progress tracker for session handoff
+85857e0 [SMARTY] feat(sequences): Add email sequence builder foundation
+stats= 14 files changed, 2531 insertions(+), 28 deletions(-)
+status=pending_approval
